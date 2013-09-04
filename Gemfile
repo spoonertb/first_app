@@ -26,6 +26,11 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
